@@ -1,0 +1,20 @@
+.loading-ellipse {
+    position: absolute;
+    // left: 50%;
+    left: calc(50% - 22px);
+    bottom: 54px;
+
+    width: 44px;
+    height: 44px;
+    animation: loading 2s linear infinite;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

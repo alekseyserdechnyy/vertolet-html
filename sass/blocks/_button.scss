@@ -1,0 +1,37 @@
+.button {
+    display: inline-block;
+    width: 360px;
+    padding: 17px 0;
+    border: 2px solid #FFFFFF;
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: #FFFFFF;
+    }
+}
+
+.button__text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    text-align: center;
+
+    &:hover {
+        color: #1B1B1B;
+    }
+}
+
+.advantages__form-button {
+    display: inline-block;
+    width: 290px;
+    padding: 17px 0;
+    border: 1px solid #FFFFFF;
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: #FFFFFF;
+    }
+}

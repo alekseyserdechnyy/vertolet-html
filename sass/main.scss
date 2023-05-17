@@ -1,0 +1,45 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;600;700;800&display=swap');
+
+
+
+// Base
+@import "./base/reset";
+@import "./base/base";
+@import "./base/vars";
+
+
+
+// Blocks
+// HTML file - index.html
+@import "./blocks/aside";
+@import "./blocks/nav";
+@import "./blocks/logo";
+@import "./blocks/header";
+@import "./blocks/button";
+@import "./blocks/general-text";
+@import "./blocks/header-title-1";
+@import "./blocks/header-title-2";
+@import "./blocks/loading-ellipse";
+@import "./blocks/social-icons";
+@import "./blocks/models";
+@import "./blocks/models-card-row";
+@import "./blocks/title-1";
+@import "./blocks/title-2";
+@import "./blocks/models-cta";
+@import "./blocks/active";
+@import "./blocks/review";
+@import "./blocks/text-2";
+@import "./blocks/buttons-small";
+@import "./blocks/company";
+@import "./blocks/advantages";
+@import "./blocks/light";
+@import "./blocks/calculator";
+@import "./blocks/services";
+@import "./blocks/detailed-link";
+@import "./blocks/news";
+@import "./blocks/footer";
+
+
+// HTML file - models-helicopter.html
+@import "./blocks/models-all";

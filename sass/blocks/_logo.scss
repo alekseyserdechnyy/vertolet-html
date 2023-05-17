@@ -1,0 +1,25 @@
+.main__logo {
+    width: 227px;
+}
+
+.main__logo-title {
+    margin-bottom: 2px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+
+    & span {
+        font-weight: 200;
+        letter-spacing: 0.15em;
+    }
+}
+
+.main__logo-text {
+    font-weight: 200;
+    font-size: 11px;
+    line-height: 1;
+    letter-spacing: 0.25em;
+    text-align: center;
+}

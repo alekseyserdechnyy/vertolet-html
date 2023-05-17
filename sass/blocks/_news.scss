@@ -1,0 +1,112 @@
+.news {
+    padding: 40px 0 80px;
+
+    &__transition-section-wrapper {
+        display: flex;
+        column-gap: 5px;
+
+        a {
+            color: #8D8D8D;
+            transition: all 0.2s ease-in;
+        }
+
+        a:hover {
+            color: #b0aaaa;
+        }
+    }
+
+    &__transition-section-text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1;
+        color: #8D8D8D;
+    }
+
+    &__transition-section-text_active {
+        color: #fff;
+        cursor: pointer;
+    }
+
+    &__card-wrapper {
+        margin-top: 40px;
+        display: flex;
+        column-gap: 44px;
+        row-gap: 44px;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: 400px;
+        background: #232323;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    &__card-all-text-wrapper {
+        padding: 28px;
+    }
+
+    &__card-date {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1.5;
+    }
+
+    &__card-title-wrapper {
+        margin-top: 10px;
+    }
+
+    &__card-title {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1.5;
+        text-transform: uppercase;
+    }
+
+    &__card-text-wrapper {
+        margin-top: 5px;
+    }
+
+    &__card-text {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 1.25;
+        opacity: 0.55;
+    }
+
+    &__detailed-link-wrapper {
+        margin-top: 40px;
+    }
+
+    &__click-number-buttons-wrapper {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        column-gap: 15px;
+    }
+
+    &__click-number-buttons {
+        width: 50px;
+        height: 50px;
+        border: 1px solid #464646;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        color: #464646;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            border: 1px solid #b5a1a1;
+            color: #b5a1a1;
+        }
+    }
+
+    &__click-number-buttons_active {
+        border: 1px solid #fff;
+        color: #fff;
+
+        &:hover {
+            border: 1px solid #fff;
+            color: #fff;
+        }
+    }
+}

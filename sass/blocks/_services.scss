@@ -1,0 +1,55 @@
+.services {
+    padding: 80px 0;
+
+    &__wrapper {
+        display: flex;
+        column-gap: 50px;
+        row-gap: 50px;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__card {
+        width: 525px;
+        padding: 20px;
+
+        background: #232323;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+    }
+
+    &__title-wrapper {
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+
+    &__title-bold {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    &__title-light {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    &__title-light-none {
+        margin: 0 !important;
+    }
+
+    &__title>*+* {
+        margin-top: 10px;
+    }
+
+    &__text-wrapper {
+        margin-top: 15px;
+    }
+
+    .detailed-link-wrapper {
+        margin-top: 15px;
+    }
+}

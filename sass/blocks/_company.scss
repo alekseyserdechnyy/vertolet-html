@@ -1,0 +1,227 @@
+.company {
+
+    &__left-block {
+        max-width: 704px;
+        padding: 100px 0;
+    }
+
+    &__wrapper {
+        padding: 100px 0;
+        display: flex;
+        column-gap: 150px;
+    }
+
+    &__title {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    &__text {
+        margin-top: 25px;
+    }
+
+    &__text-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 35px;
+    }
+
+    &__specifications {
+        margin-top: 50px;
+    }
+
+    &__specifications-wrapper {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    &__specifications-item {
+        max-width: 127px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+    }
+
+    &__specifications-title {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1;
+    }
+
+    &__specifications-text {
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 1.3;
+        opacity: 0.55;
+    }
+
+    &__learn-more {
+        margin-top: 50px;
+    }
+
+    &__learn-more-link {
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+
+        svg {
+            transition: all 0.2s ease-in;
+        }
+
+        &:hover svg {
+            transform: translateX(3px);
+        }
+
+    }
+
+    &__learn-more-text {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 1;
+        text-transform: uppercase;
+
+    }
+
+    &__right-block {
+        display: flex;
+        align-items: center;
+    }
+
+    &__img-wrapper {
+        position: relative;
+    }
+
+    &__img-text {
+        position: absolute;
+        bottom: 162px;
+        left: -225px;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 1;
+        filter: drop-shadow(0px 0px 10px rgba(255, 255, 255, 0.7));
+    }
+
+    &__logo-button-wrapper {
+        position: absolute;
+        top: calc(50% - 49.5px);
+        left: calc(50% - 132.5px);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+
+    &__logo {
+        display: flex;
+    }
+
+    &__logo-bold {
+        font-weight: 600;
+        font-size: 35px;
+        line-height: 1;
+        letter-spacing: 0.10em;
+        text-transform: uppercase;
+    }
+
+    &__logo-light {
+        font-weight: 200;
+        font-size: 35px;
+        line-height: 1;
+        text-align: right;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+    }
+
+    &__button {
+        width: 80px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background: rgba(86, 86, 86, 0.3);
+        border: 1px solid rgba(181, 181, 181, 0.1);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 0px 15px rgba(0, 0, 0, 0.5), inset 0px 15px 10px rgba(0, 0, 0, 0.25);
+
+        img {
+            margin-left: 6px;
+        }
+    }
+
+    &__active-block-wrapper {
+        display: flex;
+        margin-right: 66px;
+    }
+
+    &__card-item {
+        width: 150px;
+        height: 714px;
+        transition: all 0.2s ease-in;
+
+        &:hover {
+            width: 300px;
+
+            .company__card-description {
+                opacity: 1;
+                width: auto;
+                transition: all 0.2s ease-in;
+            }
+        }
+    }
+
+    &__card-01 {
+        background: url(./../img/img-01.jpg) no-repeat center center /cover;
+    }
+
+    &__card-02 {
+        background: url(./../img/img-02.jpg) no-repeat center center/cover;
+    }
+
+    &__card-03 {
+        background: url(./../img/img-03.jpg) no-repeat center center/cover;
+    }
+
+    &__card-rectangle-01 {
+        height: 714px;
+        display: flex;
+        background: rgba(27, 27, 27, 0.8);
+    }
+
+    &__card-rectangle-02 {
+        height: 714px;
+        display: flex;
+        background: rgba(92, 166, 161, 0.8);
+    }
+
+    &__card-rectangle-03 {
+        height: 714px;
+        display: flex;
+        background: rgba(80, 115, 135, 0.8);
+    }
+
+    &__card-align {
+        padding: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    &__card-number {
+        font-weight: 300;
+        font-size: 60px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    &__card-description {
+        opacity: 0;
+        width: 0;
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 1.2;
+        text-transform: uppercase;
+        transition: all 0.2s ease-in;
+    }
+
+}

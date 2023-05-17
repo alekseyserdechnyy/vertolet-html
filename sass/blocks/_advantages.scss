@@ -1,0 +1,117 @@
+.advantages {
+    padding: 60px 0 70px;
+
+    &__wrapper-block {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__left-block-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__title-wrapper {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
+        margin-bottom: 56px;
+    }
+
+    &__description {
+        display: flex;
+        column-gap: 20px;
+    }
+
+    &__card {
+        width: 220px;
+    }
+
+    &__card-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__img-wrapper {
+        position: relative;
+        margin-bottom: 37px;
+    }
+
+    &__card-icon {
+        position: absolute;
+        top: calc(50% - 29px);
+        left: calc(50% - 29px);
+    }
+
+    &__title-light-wrapper {
+        margin-bottom: 16px;
+    }
+
+    .title-light-align {
+        text-align: center;
+    }
+
+    .text-light-align {
+        text-align: center;
+    }
+
+    &__form {
+        width: 350px;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 25px;
+        background: #232323;
+        box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.15);
+
+        form {
+            display: flex;
+            justify-content: center;
+        }
+    }
+
+    &__form-title {
+        padding-top: 40px;
+        text-align: center;
+    }
+
+    &__form-title>*+* {
+        margin-top: 15px;
+    }
+
+    &__form-title-light {
+        font-weight: 300;
+        font-size: 22px;
+        line-height: 1;
+        text-transform: uppercase;
+    }
+
+    &__form-wrapper {
+        width: 290px;
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 30px;
+
+        input {
+            border: none;
+            background: rgba(0, 0, 0, 0.2);
+
+            &::placeholder {
+                color: #B6B6B6;
+                opacity: 0.2;
+            }
+        }
+    }
+
+    p {
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 1.4;
+        opacity: 0.4;
+        text-align: center;
+    }
+}

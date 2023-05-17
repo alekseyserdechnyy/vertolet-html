@@ -1,0 +1,12 @@
+.review__button-small {
+    display: inline-block;
+    width: 240px;
+    padding: 17px 0;
+    border: 1px solid #FFFFFF;
+
+    transition: all 0.2s ease-in;
+
+    &:hover {
+        background-color: #FFFFFF;
+    }
+}

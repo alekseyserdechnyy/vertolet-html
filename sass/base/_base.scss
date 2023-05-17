@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+    color: #fff;
+    letter-spacing: 0.05em;
+}
+
+.container {
+    position: relative;
+    max-width: 1680px;
+    width: 100%;
+    padding: 0 80px;
+    margin: 0 auto;
+}
+
+.container-models {
+    padding: 0 60px 0 80px;
+}
+
+.container-models-all {
+    padding-right: 20px;
+}
+
+.container-review {
+    padding: 0 0 0 80px;
+}
+
+.container-services {
+    padding: 0 50px 0 80px;
+}
+
+.none {
+    display: none !important;
+}
+
+.content-wrapper {
+    padding-left: 41px;
+}
+
+.title-3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.title-4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text-3 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    opacity: 0.55;
+}
+
+.detailed-link-align {
+    justify-content: flex-end;
+}
+
+.form-input {
+    padding: 15px 30px;
+    background: #151515;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    &::placeholder {
+        font-weight: 300;
+        font-size: 20px;
+        opacity: 0.4;
+    }
+}
+
+form {
+    width: 100%;
+}

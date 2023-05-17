@@ -1,0 +1,39 @@
+.header-bg {
+    height: calc(100vh - 78px);
+    background-image: url(./../img/header/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-bg__linear {
+    height: 100%;
+    background: linear-gradient(112.21deg, #1F1F1F 2.72%, #121212 101.59%);
+}
+
+.header {
+    padding-top: 100px;
+
+
+    &__content-wrapper {
+        max-width: 775px;
+    }
+
+
+    &__title-wrapper {
+        margin-bottom: 7px;
+
+
+        .header__title-1 {
+            font-size: 72px;
+        }
+
+        .header__title-2 {
+            font-size: 72px;
+        }
+    }
+
+    &__button-wrapper {
+        margin-top: 45px;
+    }
+}
